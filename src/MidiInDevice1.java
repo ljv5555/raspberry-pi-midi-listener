@@ -77,11 +77,11 @@ public class MidiInDevice1
 			out(t.toString());
 		}
 	}
-}
 
 
 
-class DumpReceiver
+
+public static class DumpReceiver
 implements	Receiver
 {
 
@@ -568,7 +568,7 @@ static{generateLicense();}
 
 
 
-class MidiCommon
+public static class MidiCommon
 {
 	/**	TODO:
 		todo: flag long
@@ -711,3 +711,4 @@ class MidiCommon
 }
 
 
+}
