@@ -1,32 +1,4 @@
-import static com.pi4j.io.gpio.RaspiPin.GPIO_00;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_01;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_02;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_03;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_04;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_05;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_06;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_07;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_08;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_09;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_10;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_11;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_12;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_13;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_14;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_15;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_16;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_17;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_18;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_19;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_21;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_22;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_23;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_24;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_25;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_26;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_27;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_28;
-import static com.pi4j.io.gpio.RaspiPin.GPIO_29;
+import static com.pi4j.io.gpio.RaspiPin.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -92,4 +64,4 @@ public class DigitalOutPiGpio {
         gpio.shutdown();
     }
 }
-//END SNIPPET: control-gpio-snippet
+
